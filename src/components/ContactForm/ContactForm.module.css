@@ -1,0 +1,62 @@
+.classBox {
+  margin: 0 auto;
+  margin-top: 25px;
+  padding: 20px 30px;
+  border: 1px solid #000;
+  border-radius: 8px;
+  width: 250px;
+}
+.inputBlock {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 4px;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+.inputBlock:last-child {
+  margin-bottom: 20px;
+}
+
+.inputBlock input {
+  width: 250px;
+  font-size: 16px;
+  border-radius: 4px;
+  padding-left: 12px;
+  outline: none;
+  border: 1px solid rgb(0, 0, 0);
+}
+.inputBlock input:focus,
+.inputBlock input:active {
+  outline: none;
+  border: 1px solid blue;
+}
+
+.error {
+  font-weight: normal;
+  font-size: 14px;
+  color: red;
+}
+.btnSubmit {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #000;
+  border-radius: 8px;
+  padding: 8px 12px;
+  width: 120px;
+  font-size: 12px;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #ececec;
+  transition: box-shadow 0.5s ease, color 0.5s ease;
+}
+.btnSubmit:hover {
+  box-shadow: 1px 4px 8px #7879a8;
+  color: rgb(0, 0, 150);
+}
+.text {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}

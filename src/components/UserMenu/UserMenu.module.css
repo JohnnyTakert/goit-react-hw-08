@@ -1,0 +1,31 @@
+.box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-right: 10px;
+}
+
+.textBox {
+  margin: 0 auto;
+  width: 250px;
+  padding: 10px 5px;
+  font-weight: 600;
+  font-size: 20px;
+  color: rgb(104, 60, 193);
+}
+
+.button {
+  border: 1px solid #000;
+  border-radius: 8px;
+  padding: 4px 6px;
+  width: 90px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #737373;
+  background-color: #ececec;
+  transition: box-shadow 0.5s ease, color 0.5s ease;
+}
+.button:hover {
+  box-shadow: 1px 2px 4px #000;
+  color: rgb(46, 46, 254);
+}

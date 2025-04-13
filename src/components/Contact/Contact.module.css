@@ -1,0 +1,51 @@
+li {
+  list-style: none;
+}
+.contactAll {
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 8px;
+  padding: 2px 5px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: 4px 4px 8px rgba(32, 33, 36, 0.35);
+  transition: box-shadow 0.4s ease;
+}
+.contactAll:hover {
+  box-shadow: 4px 4px 8px rgba(32, 33, 36, 0.7);
+}
+
+.contactsBox {
+  width: 180px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 600;
+  color: blue;
+  padding: 4px;
+}
+.number {
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+  padding: 4px;
+}
+.btnDel {
+  border: 1px solid #000;
+  border-radius: 8px;
+  padding: 8px 12px;
+  width: 90px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #737373;
+  background-color: #ececec;
+  transition: box-shadow 0.5s ease, color 0.5s ease;
+}
+.btnDel:hover {
+  box-shadow: 1px 2px 4px #000;
+  color: rgb(46, 46, 254);
+}
